@@ -1,0 +1,32 @@
+:root {
+    --color-azul-claro: #9FE7FB;
+    --color-azul-medio: #429EBD;
+    --color-azul-oscuro: #053F5C;
+    --color-amarillo-oscuro: #F7AD19;
+    --color-naranja: #F27F0C;
+    --fondo: #F9F9F9;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--fondo);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.5rem;
+}
+
+header {
+    background-color: var(--color-azul-oscuro);
+    padding: 20px;
+    text-align: center;
+    color: rgb(4, 4, 4);
+}
